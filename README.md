@@ -1,4 +1,4 @@
-# Sprint Challenge: User Interface and Git - Multi-Page Website
+ # Sprint Challenge: User Interface and Git - Multi-Page Website
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
@@ -34,13 +34,34 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML provides meaning to your content.
+It makes your website readable and easily interpreted.
+And it helps developers keep their code organized and easier to maintain.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block ignores the vertical-align property.
+Display inline is subject to the vertical align property.
 
 3. What are the 4 areas of the box model?
 
+Content box: The area where your content is displayed, which can be sized using properties like width and height.
+Padding box: The padding sits around the content as white space; its size can be controlled using padding and related properties.
+Border box: The border box wraps the content and any padding. Its size and style can be controlled using border and related properties.
+Margin box: The margin is the outermost layer, wrapping the content, padding and border as whitespace between this box and other elements. Its size can be controlled using margin and related properties.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross axis; Y-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+GIT is the most widely used Version Control System
+GIT is a Distributed Version Control System as opposed to a Central Version Control System.
+A central VCS is located in one place, so people can check out from a central location and make changes. This can be problematic if you can’t get into the central repository.
+A distributed VCS like GIT, everyone has a local repository. Local repository has all the information your central repository has, based on the time that those two were synched together.
+Every developer has an entire backup of the repository in a distributed VCS.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
